@@ -2,6 +2,7 @@ pipeline {
     agent any
     
 	triggers { pollSCM('H/15 * * * *')
+	}
 	
     environment {
        // use your actual issuer URL here and NOT the placeholder {yourOktaDomain}
