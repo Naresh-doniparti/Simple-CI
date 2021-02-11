@@ -9,3 +9,7 @@ OKTA_OAUTH2_CLIENT_SECRET={yourOktaClientSecret} \
 OKTA_OAUTH2_ISSUER={yourOktaDomain}/oauth2/default \
 ./mvnw spring-boot:run
 ```
+
+git update-index --chmod=+x mvnw
+
+./ngrok http 80
