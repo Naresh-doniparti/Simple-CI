@@ -14,7 +14,7 @@
 	<name>Simple Application</name>
 	<description>Demo project for Jenkins CI test</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
