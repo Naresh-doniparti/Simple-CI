@@ -1,6 +1,7 @@
 Simple CI Pipleline with GIT, GITHUB and Jenkins
 
-A simple pipeline which fetches 
+Jenkinsfile - A simple pipeline which pulls the latest code from the GIT
+              with maven CLI, it executes tests and package the application into a .jar file
 
 Challenges faced:
 Jenkins build is failing while running the maven command due to missing execution priviliges on the file. Used the below command to solve it
